@@ -1,0 +1,16 @@
+﻿빌드 시작: 2016. 7. 11. 오후 6:35:28
+     1>2 노드의 "\\Mac\Home\Downloads\Release_Binary\ExampleAIModule\FlashBot.vcxproj" 프로젝트(Build 대상)입니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (ExampleAIModule.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\Mac\Home\Downloads\Release_Binary\ExampleAIModule\Release\FlashBot.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib ../lib/BWAPI.lib ../lib/BWTA.lib "../lib/libboost_system-vc120-mt-1_56.lib" "../lib/libboost_thread-vc120-mt-1_56.lib" "../lib/libCGAL-vc120-mt-4.4.lib" "../lib/libgmp-10.lib" "../lib/libmpfr-4.lib" ../SparCraft/VisualStudio/Release/SparCraft/SparCraft.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\Mac\Home\Downloads\Release_Binary\ExampleAIModule\Release\FlashBot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\FlashBot.lib" /MACHINE:X86 /SAFESEH /DLL Release\Dll.obj
+         Release\FlashBotModule.obj
+         Release\GameCommander.obj
+            Release\FlashBot.lib 라이브러리 및 Release\FlashBot.exp 개체를 생성하고 있습니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         FlashBot.vcxproj -> \\Mac\Home\Downloads\Release_Binary\ExampleAIModule\Release\FlashBot.dll
+     1>"\\Mac\Home\Downloads\Release_Binary\ExampleAIModule\FlashBot.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:11.23
